@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../CSS/PlayGame.css">
+	<title>SNAKE BYTE</title>
+</head>
+<body>
+	<!-- div that is dispalyed when a new high score is reached -->
+<div id="newHighScore" class='notification'> Congratulations! You set a new High Score! Click Confirmation to choose what you do next. <br><br>
+			<!-- button that is displayed for confirmation of input, the player
+				 can either choose Play Again or to exit the page  -->
+		<button class="confirm" onclick="confirmInput()">Confirmation</button>
+ </div>
+
+	<!-- div that is dispalyed when the old high score is not beat -->
+<div id="loss" class='notification lost'> Drat! You did not beat the old High Score. Click Confirmation to choose what you do next. <br><br>
+		<button class="confirm" onclick="confirmInput()">Confirmation</button>
+</div>
+<h1>Playing snake byte<span class="dot1">.</span><span class="dot2">.</span><span class="dot3">.</span></h1>
+
+<script src="snakeScript.js"></script>
+<br>
+
+<div class="BACK">
+	<a href="Welcome.html" class="goback">Title Page</a>
+</div>
+<div class="CREDITS">
+	<a href="Credits.html" class="goback">Credits</a>
+</div>
+</body>
+</html>
